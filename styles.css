@@ -1,0 +1,228 @@
+/*Funny Pictures--------------------------------------------------------------------------------- -----------*/
+#shrek {
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3px;
+    width: 100%;
+}
+#sponge {
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3px;
+    width: 100%;
+}
+#squidward {
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3px;
+    width: 100%;
+}
+#patrick {
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3px;
+    width: 100%;
+}
+#squidward2 {
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3px;
+    width: 100%;
+}
+#squidward3 {
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3px;
+    width: 100%;
+}
+/*Funny Pictures--------------------------------------------------------------------------------- -----------*/
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://thumbs.gfycat.com/SmartUnacceptableAcornweevil-size_restricted.gif);
+    background-size: cover;
+    background-repeat: repeat-y;
+    margin-right: 3em;
+}
+.row1 {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+.main-title {
+    text-align: center;
+    margin-right: 8em;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    font-size: 3em;
+    font-family: Phosphate;
+    color: fuchsia;
+    text-shadow: 2px 2px black;
+    text-decoration: underline;
+}
+.row2 {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+.row2 h3 {
+    font-family: cursive;
+    grid-column: 2/5;
+    width: 66.7%;
+    height: 300%;
+    font-size: x-large;
+    background: rgba(19, 248, 172, .8);
+    font-size: xx-large;
+    text-decoration: underline;
+    color: rgb(112, 8, 248);
+}
+.row3 {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+.row3 p {
+    font-family: SignPainter;
+    font-size: xx-large;
+    grid-column: 2/3;
+}
+.row4 {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+.row4 .btn {
+    grid-column: 2/3;
+    height: 50px;
+    border-radius: 12px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: darkmagenta;
+    font-family: Noteworthy;
+    color: rgb(250, 70, 70);
+    text-shadow: 2px 2px black;
+}
+.row4 .btn:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.row5 {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+.row5 img {
+    grid-column: 2/3;
+}
+.row6 {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+.row6 ul{
+    grid-column: 2/3;
+    background-color: rgba(22, 245, 215, .7);
+}
+.the_story h1 {
+    font-family: cursive;
+    grid-column: 2/3;
+    height: 200%;
+    background-color: rgba(22, 245, 215, .7);
+}
+.row7 {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+.row7 #btnGiveCommand {
+    visibility: hidden;
+    grid-column: 2/3;
+    width: 100%;
+    height: 3em;
+    background-color: blueviolet;
+    font-size: 4em;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    border-radius: 12px;
+    font-family: Savoye LET;
+    color: rgb(250, 57, 218);
+}
+#btnGiveCommand:hover {
+    opacity: .5;
+    cursor: pointer;
+    }
+.row8 {
+    text-align: center;
+    color: rgb(255, 227, 66);
+    font-family: Zapfino;
+}
+.clickable {
+    color: rgba(22, 245, 215);
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .row1 {
+        display: grid;
+        grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    }
+    .main-title {
+        grid-row: 1/2;
+    }
+    .row2 {
+    display: grid;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    }
+    .row2 h3 {
+        grid-row: 2/3;
+    }
+
+    .row3 {
+        display: grid;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    }
+    .row3 p {
+        grid-row: 3/4;
+    }
+
+    .row4 {
+        display: grid;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    }
+    .row4 .btn {
+        grid-row: 4/5;
+    }
+
+    .row5 {
+        display: grid;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    }
+    .row5 img {
+        grid-row: 5/6;
+    }
+
+    .row6 {
+        display: grid;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    }
+    .the_story h1 {
+        grid-row: 6/7;
+    }
+    .row6 ul {
+        grid-row: 7/8;
+    }
+
+    .row7 {
+        display: grid;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    }
+    .row7 #btnGiveCommand {
+        grid-row: 8/9;
+    }
+
+}
+
